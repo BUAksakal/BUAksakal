@@ -1,17 +1,10 @@
 <h1 align="center">Hi 👋, I'm Berke Uğur Aksakal</h1>
 <h3 align="center">An AI engineer in training, building practical and intelligent systems</h3>
 
-- 🔭 I’m currently working on [AI-powered workout tracking and recommendation system](https://github.com/BUAksakal/AI-FitnessTracker)
-
-- 🌱 I’m currently learning **Machine Learning, Deep Learning, Edge Computing, and System Design**
-
-- 💬 Ask me about **Building AI-powered applications and data-driven systems**
-
 - 📫 How to reach me **berkeuguraksakal17@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/berke uğur aksakal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="berke uğur aksakal" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
