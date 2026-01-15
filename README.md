@@ -1,6 +1,10 @@
 <h1 align="center">Hi 👋, I'm Berke Uğur Aksakal</h1>
 <h3 align="center">An AI engineer in training, building practical and intelligent systems</h3>
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=buaksakal&label=Profile%20views&color=0e75b6&style=flat" alt="buaksakal" /> </p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=buaksakal" alt="buaksakal" /></a> </p>
+
 - 📫 How to reach me **berkeuguraksakal17@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
