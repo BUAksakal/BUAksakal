@@ -5,19 +5,17 @@
 
 <p align="center">
   📍 Germany &nbsp;•&nbsp;
-  🎓 M.Eng. AI for Smart Sensors & Actuators (TH Deggendorf) &nbsp;•&nbsp;
-  🔎 Focus: Applied AI, Edge Computing, Sensor-based Systems
+  🎓 B.Sc. Electrical & Electronics Engineering &nbsp;•&nbsp;
+  🎓 M.Eng. Artificial Intelligence (Smart Sensors & Actuators)
 </p>
 
 ---
 
 ## 🚀 About Me
-- 🛠️ I’m currently working on **AI-powered workout tracking and recommendation system**
-- 🤝 I’m looking to collaborate on **applied AI, machine learning, and edge computing projects**
-- 🤲 I’m looking for help with **optimizing AI models for real-time and edge deployment**
-- 🌱 I’m currently learning **ML pipelines, model optimization, and system design**
+- 🛠️ Currently working on **AI-powered applications and intelligent systems**
+- 🌱 Focused on **applied AI, edge computing, and sensor-based systems**
+- 🧠 Strong background in **Electrical & Electronics Engineering**
 - 💬 Ask me about **building AI-powered applications and data-driven systems**
-- ⚡ Fun fact: **I design every project to solve a real, measurable problem — not just for demos.**
 
 ---
 
@@ -30,26 +28,13 @@
 
 ## 🧰 Languages & Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,java,matlab,tensorflow,pytorch,flutter,dart,git,github,linux,arduino,raspberrypi&perline=14" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,matlab,tensorflow,pytorch,flutter,dart,git,github,linux,arduino,raspberrypi&perline=14" />
 </p>
 
 ---
 
-## 📊 GitHub Stats
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=BUAksakal&show_icons=true&hide_title=true" />
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=BUAksakal" />
-</p>
-
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BUAksakal&layout=compact" />
-</p>
-
----
-
-## 📌 Featured Projects
-- **Workout Tracker AI** — AI-based training insights and recommendations (Flutter + on-device ML)
-- **Edge Device Architectures** — notes + diagrams + implementations (DMA, ALU, FIFO, circular buffers)
-- **Applied ML Experiments** — practical experiments with real datasets (classification, regression, optimization)
-
-> Want to collaborate? Feel free to reach out.
+## 📌 Selected Focus Areas
+- Artificial Intelligence & Machine Learning
+- Edge Computing & Embedded Systems
+- Sensor-based Intelligent Systems
+- Data-driven Application Development
