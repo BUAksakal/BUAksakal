@@ -1,39 +1,21 @@
-<svg width="680" height="62" viewBox="0 0 680 62" xmlns="http://www.w3.org/2000/svg">
-  <rect width="680" height="62" rx="6" fill="#0d0d0d"/>
+<div align="center">
 
-  <defs>
-    <clipPath id="c1">
-      <rect x="0" y="0" width="0" height="36">
-        <animate attributeName="width" from="0" to="680" dur="2s" begin="0.4s" fill="freeze"/>
-      </rect>
-    </clipPath>
-    <clipPath id="c2">
-      <rect x="0" y="38" width="0" height="24">
-        <animate attributeName="width" from="0" to="680" dur="2.2s" begin="3.1s" fill="freeze"/>
-      </rect>
-    </clipPath>
-  </defs>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1a1a&height=100&section=header&fontColor=ffffff&fontSize=0&animation=fadeIn" width="100%"/>
 
-  <text x="4" y="27" fill="#ffffff" font-family="'Courier New',Courier,monospace" font-size="20" font-weight="700" clip-path="url(#c1)">Berke Ugur Aksakal</text>
-  <text x="4" y="54" fill="#606060" font-family="'Courier New',Courier,monospace" font-size="12" clip-path="url(#c2)">AI Engineer in Training  ·  Smart Sensors &amp; Actuators  ·  Germany</text>
+<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&weight=700&size=28&duration=2500&pause=800&color=FFFFFF&center=true&vCenter=true&width=500&lines=Berke+Ugur+Aksakal" alt="name"/>
 
-  <!-- Ship 1 — white, for line 1 -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.4s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="-20,15" to="700,15" dur="2s" begin="0.4s" fill="freeze"/>
-    <polygon points="0,3 16,7 0,11" fill="#ffffff"/>
-    <line x1="-4" y1="5" x2="-12" y2="7" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
-    <line x1="-4" y1="9" x2="-12" y2="7" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
-    <line x1="-12" y1="7" x2="-24" y2="7" stroke="#ffffff" stroke-width="0.5" stroke-linecap="round" opacity="0.2"/>
-  </g>
+<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&weight=400&size=14&duration=3000&pause=1000&color=666666&center=true&vCenter=true&width=600&lines=AI+Engineer+in+Training;M.Eng.+Smart+Sensors+%26+Actuators;Edge+Computing+%7C+Embedded+AI+%7C+Germany" alt="title"/>
 
-  <!-- Ship 2 — dim, for line 2 -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.1s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="-20,47" to="700,47" dur="2.2s" begin="3.1s" fill="freeze"/>
-    <polygon points="0,2 13,5 0,8" fill="#606060"/>
-    <line x1="-3" y1="3" x2="-9" y2="5" stroke="#606060" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
-    <line x1="-3" y1="7" x2="-9" y2="5" stroke="#606060" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
-    <line x1="-9" y1="5" x2="-18" y2="5" stroke="#606060" stroke-width="0.5" stroke-linecap="round" opacity="0.2"/>
-  </g>
-</svg>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=python,cpp,c,matlab,tensorflow,pytorch,git,linux,arduino,raspberrypi&perline=10"/>
+
+<br/><br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/berke-ugur-aksakal)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-333?style=flat-square&logo=gmail&logoColor=white)](mailto:berkeuguraksakal17@gmail.com)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:000000&height=60&section=footer&animation=fadeIn" width="100%"/>
+
+</div>
