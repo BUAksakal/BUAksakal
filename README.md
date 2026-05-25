@@ -1,40 +1,47 @@
-<h1 align="center">Hi 👋, I'm Berke Uğur Aksakal</h1>
-<p align="center">
-  <b>An AI engineer in training, building practical and intelligent systems</b>
-</p>
+<div align="center">
 
-<p align="center">
-  📍 Germany &nbsp;•&nbsp;
-  🎓 B.Sc. Electrical & Electronics Engineering &nbsp;•&nbsp;
-  🎓 M.Eng. Artificial Intelligence (Smart Sensors & Actuators)
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:1a1a2e&height=120&section=header&text=&animation=fadeIn" width="100%"/>
 
----
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=300&size=22&duration=3000&pause=1000&color=6C9EFF&center=true&vCenter=true&width=600&lines=AI+Engineer+in+Training;Smart+Sensors+%26+Actuators;Edge+Computing+%26+Embedded+AI;Building+Intelligent+Systems" alt="Typing SVG" />
 
-## 🚀 About Me
-- 🛠️ Currently working on **AI-powered applications and intelligent systems**
-- 🌱 Focused on **applied AI, edge computing, and sensor-based systems**
-- 🧠 Strong background in **Electrical & Electronics Engineering**
-- 💬 Ask me about **building AI-powered applications and data-driven systems**
+<br/>
+
+**`Berke Uğur Aksakal`** &nbsp;·&nbsp; M.Eng. Artificial Intelligence &nbsp;·&nbsp; 📍 Germany
+
+<br/>
 
 ---
 
-## 📫 Contact
-- Email: **berkeuguraksakal17@gmail.com**
-- LinkedIn: **https://www.linkedin.com/in/berke-ugur-aksakal**
-- GitHub: **https://github.com/BUAksakal**
+### ⚡ Stack
+
+<img src="https://skillicons.dev/icons?i=python,cpp,c,matlab,tensorflow,pytorch,git,linux,arduino,raspberrypi&perline=10&theme=dark" />
 
 ---
 
-## 🧰 Languages & Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,matlab,tensorflow,pytorch,flutter,dart,git,github,linux,arduino,raspberrypi&perline=14" />
-</p>
+### 📊 GitHub
+
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=BUAksakal&show_icons=true&theme=transparent&hide_border=true&title_color=6C9EFF&icon_color=6C9EFF&text_color=8b8b8b&bg_color=00000000&rank_icon=github&hide=contribs" />
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BUAksakal&layout=compact&theme=transparent&hide_border=true&title_color=6C9EFF&text_color=8b8b8b&bg_color=00000000" />
 
 ---
 
-## 📌 Selected Focus Areas
-- Artificial Intelligence & Machine Learning
-- Edge Computing & Embedded Systems
-- Sensor-based Intelligent Systems
-- Data-driven Application Development
+### 🔬 Focus
+
+```
+  Artificial Intelligence & ML    ██████████░░  
+  Edge Computing & Embedded AI    █████████░░░  
+  Sensor-based Systems            ████████░░░░  
+  Data-driven Applications        ███████░░░░░  
+```
+
+---
+
+### 🔗 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/berke-ugur-aksakal)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BUAksakal)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:berkeuguraksakal17@gmail.com)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0a0a0a&height=80&section=footer&animation=fadeIn" width="100%"/>
+
+</div>
