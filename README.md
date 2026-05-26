@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&weight=700&size=28&duration=2500&pause=800&color=FFFFFF&center=true&vCenter=true&width=500&lines=Berke+Ugur+Aksakal" alt="name"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&weight=400&size=14&duration=3000&pause=1000&color=666666&center=true&vCenter=true&width=600&lines=AI+Engineer+in+Training;M.Eng.+Smart+Sensors+%26+Actuators;Edge+Computing+%7C+Embedded+AI+%7C+Germany" alt="title"/>
+<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&weight=400&size=14&duration=3000&pause=1000&color=666666&center=true&vCenter=true&width=600&lines=AI+Engineer;M.Eng.+Smart+Sensors+%26+Actuators;Edge+Computing+%7C+Embedded+AI+%7C+Germany" alt="title"/>
 
 <br/>
 
