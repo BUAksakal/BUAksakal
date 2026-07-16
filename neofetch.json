@@ -1,6 +1,7 @@
 {
-  "removeBackground": true,
-  "imageScale": 0.9,
+  "removeBackground": false,
+  "imageScale": 1.8,
+  "imageOffsetY": "-12%",
   "sections": [
     {
       "title": "{{username}}@github",
