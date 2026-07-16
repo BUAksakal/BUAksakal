@@ -1,0 +1,43 @@
+{
+  "removeBackground": true,
+  "imageScale": 0.9,
+  "sections": [
+    {
+      "title": "{{username}}@github",
+      "fields": [
+        { "key": "Name", "value": "{{name}}" },
+        { "key": "Location", "value": "{{location}}" },
+        { "key": "Role", "value": "M.Sc. AI for Smart Sensors & Actuators @ THD" },
+        { "key": "Uptime", "value": "{{uptime}}" }
+      ]
+    },
+    {
+      "fields": [
+        { "key": "Languages", "value": "Python, JavaScript, C++" },
+        { "key": "Frameworks", "value": "PyTorch, TensorFlow, OpenCV, YOLOv8" },
+        { "key": "IDE", "value": "VSCode, PyCharm" }
+      ]
+    },
+    {
+      "fields": [
+        { "key": "Hobbies.Focus", "value": "Computer Vision, Object Detection" },
+        { "key": "Hobbies.Other", "value": "Gym, Robotics" }
+      ]
+    },
+    {
+      "title": "- Contact",
+      "fields": [
+        { "key": "Website", "value": "berkeuguraksakal.com" },
+        { "key": "GitHub", "value": "github.com/{{username}}" }
+      ]
+    }
+  ],
+  "stats": {
+    "title": "- GitHub Stats",
+    "rows": [
+      { "left": { "key": "Repos", "value": "{{repos}}" }, "right": { "key": "Stars", "value": "{{stars}}" } },
+      { "left": { "key": "Commits", "value": "{{commits}}" }, "right": { "key": "Followers", "value": "{{followers}}" } },
+      "loc"
+    ]
+  }
+}
