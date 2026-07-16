@@ -1,8 +1,7 @@
 {
-  "coloredImage": true,
+  "coloredImage": false,
   "removeBackground": false,
-  "imageScale": 1.8,
-  "imageOffsetY": "-12%",
+  "imageScale": 0.7,
   "sections": [
     {
       "title": "{{username}}@github",
