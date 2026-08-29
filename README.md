@@ -10,6 +10,5 @@ M.Sc. AI for Smart Sensors & Actuators @ THD — Computer Vision · Robotics · 
 
 <br>
 
-<img src="game.gif" alt="space shooter" width="460">
-
+<img src="game.gif" alt="space shooter">
 </div>
