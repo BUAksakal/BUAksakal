@@ -2,13 +2,15 @@
 
 # Berke Uğur Aksakal
 
-🎓 M.Sc. AI for Smart Sensors & Actuators — THD<br>
-🔍 Computer Vision · Robotics · Embedded Systems<br>
-🎓 B.Sc. Electrical & Electronics Engineering — Afyon Kocatepe University<br>
-📍 Cham, Germany<br>
-🔗 <a href="https://berkeuguraksakal.com">berkeuguraksakal.com</a> · <a href="https://github.com/BUAksakal">GitHub</a>
+```ini
+role      = M.Sc. AI for Smart Sensors & Actuators — THD
+focus     = Computer Vision, Robotics, Embedded Systems
+education = B.Sc. Electrical & Electronics Engineering, Afyon Kocatepe University
+location  = Cham, Germany
+contact   = berkeuguraksakal.com, github.com/BUAksakal
+```
 
-<br><br>
+<br>
 
 [Python](https://github.com/BUAksakal/griff-rag) ·
 [RAG](https://github.com/BUAksakal/griff-rag) ·
