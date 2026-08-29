@@ -2,6 +2,8 @@
 
 # Berke Uğur Aksakal
 
+</div>
+
 ```ini
 role      = M.Sc. AI for Smart Sensors & Actuators — THD
 focus     = Computer Vision, Robotics, Embedded Systems
@@ -10,7 +12,7 @@ location  = Cham, Germany
 contact   = berkeuguraksakal.com, github.com/BUAksakal
 ```
 
-<br>
+<div align="center">
 
 [Python](https://github.com/BUAksakal/griff-rag) ·
 [RAG](https://github.com/BUAksakal/griff-rag) ·
