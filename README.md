@@ -8,7 +8,7 @@
 role      = M.Sc. AI for Smart Sensors & Actuators — THD
 focus     = Computer Vision, Robotics, Embedded Systems
 education = B.Sc. Electrical & Electronics Engineering, Afyon Kocatepe University
-location  = Cham, Germany
+location  = Ingolstadt, Germany
 contact   = berkeuguraksakal.com, github.com/BUAksakal
 ```
 
