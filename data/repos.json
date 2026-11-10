@@ -1,0 +1,35 @@
+{
+ "public_repos": 16,
+ "repos": {
+  "low-altitude-aerial-detection": {
+   "description": "Low-altitude (3\u20139m) aerial object detection using custom-annotated drone footage and YOLOv8. Built as part of THI \u00d7 Fraunhofer IVI \u00d7 THD collaboration.",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0
+  },
+  "journey-resilience-agent": {
+   "description": "Live transfer-risk monitoring for German rail journeys \u2014 LangGraph agent + LightGBM quantile model on the DB Timetables API",
+   "language": "HTML",
+   "stars": 0,
+   "forks": 0
+  },
+  "ai-vision-robotic-hand": {
+   "description": "Vision-controlled robotic hand",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0
+  },
+  "space-shooter-spi": {
+   "description": "Distributed 2-player Space Shooter game running on two Raspberry Pi 1 nodes communicating via SPI protocol.",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0
+  },
+  "ppe-helmet-detection": {
+   "description": "Real-time safety helmet detection using YOLOv8 and computer vision.",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0
+  }
+ }
+}
