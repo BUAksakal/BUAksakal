@@ -15,6 +15,7 @@ Edit CONFIG below to change the words, links and featured repos.
 from __future__ import annotations
 
 import base64
+import hashlib
 import calendar
 import datetime as dt
 import html
@@ -22,6 +23,7 @@ import io
 import json
 import os
 import pathlib
+import re
 from collections import defaultdict
 from functools import lru_cache
 
@@ -152,7 +154,7 @@ def a(name: str, dur: float, delay: float, ease: str = EASE, extra: str = "") ->
 
 @lru_cache(maxsize=None)
 def embedded_font(face: str, chars: frozenset) -> str:
-    f = TTFont(FONTS / FACES[face])
+    f = TTFont(FONTS / FACES[face], recalcTimestamp=False)  # deterministic output
     opts = subset.Options()
     opts.flavor = "woff"
     opts.layout_features = ["kern", "liga", "tnum"]
@@ -586,10 +588,23 @@ def main():
     cards += [section_title(False), section_title(True)]
     cards += [repo_card(r, i, repos) for i, r in enumerate(CONFIG["repos"])]
     CARDS.mkdir(exist_ok=True)
+    versions = {}
     for card in cards:
         out = CARDS / f"{card.name}.svg"
-        out.write_text(card.svg())
+        svg = card.svg()
+        out.write_text(svg)
+        versions[card.name] = hashlib.sha1(svg.encode()).hexdigest()[:8]
         print(f"cards/{out.name:42s} {out.stat().st_size / 1024:6.1f} KB")
+    # Cache-busting: GitHub and browsers cache images by URL, so give every changed card a new
+    # ?v=<hash> in the README. Unchanged cards keep their URL and stay cached.
+    readme = ROOT / "README.md"
+    if readme.exists():
+        text = readme.read_text()
+        new = re.sub(r"\./cards/([\w-]+)\.svg(?:\?v=[0-9a-f]+)?",
+                     lambda m: f"./cards/{m[1]}.svg?v={versions[m[1]]}" if m[1] in versions else m[0], text)
+        if new != text:
+            readme.write_text(new)
+            print("README.md card versions updated")
     if os.environ.get("PREVIEW") == "1":
         readme = (ROOT / "README.md").read_text()
         (ROOT / "preview.html").write_text(
