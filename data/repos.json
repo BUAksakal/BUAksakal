@@ -1,133 +1,41 @@
 {
  "public_repos": 16,
  "repos": {
-  "AI-FitnessTracker": {
-   "description": "Minimal workout tracking app built with Flutter \ud83c\udfcb\ufe0f Upcoming AI-based recommendation system for personalized progress insights.",
-   "language": "Dart",
-   "stars": 0,
-   "forks": 0,
-   "pushed_at": "2025-12-01T11:48:43Z",
-   "fork": false
-  },
-  "ai-vision-robotic-hand": {
-   "description": "Bachelor\u2019s final thesis project: AI-based vision-controlled 3D-printed robotic hand using Python, OpenCV, YOLO and Arduino.",
+  "low-altitude-aerial-detection": {
+   "description": "Low-altitude (3\u20139m) aerial object detection using custom-annotated drone footage and YOLOv8. Built as part of THI \u00d7 Fraunhofer IVI \u00d7 THD collaboration.",
    "language": "Python",
    "stars": 0,
-   "forks": 0,
-   "pushed_at": "2026-05-28T12:37:49Z",
-   "fork": false
-  },
-  "BUAksakal": {
-   "description": "",
-   "language": "Python",
-   "stars": 0,
-   "forks": 0,
-   "pushed_at": "2026-11-10T09:28:24Z",
-   "fork": false
-  },
-  "CancerPrediction-LogisticRegression": {
-   "description": "Breast Cancer Prediction using Logistic Regression | 97% Accuracy | Kaggle Dataset (UCI Breast Cancer Wisconsin)",
-   "language": "Python",
-   "stars": 0,
-   "forks": 0,
-   "pushed_at": "2025-10-31T16:13:48Z",
-   "fork": false
-  },
-  "engine-fault-pattern-mining": {
-   "description": "Apriori association rule mining on automotive engine sensor data for interpretable fault detection. Python \u00b7 mlxtend \u00b7 SHAP \u00b7 Streamlit",
-   "language": "Python",
-   "stars": 1,
-   "forks": 0,
-   "pushed_at": "2026-08-21T11:44:07Z",
-   "fork": false
-  },
-  "f1-telemetry-apex-detection": {
-   "description": "Advanced F1 telemetry visualization tool that automatically detects real apex points using curvature and speed-derivative analysis. For each corner, the system identifies the fastest driver, colors the apex in the corresponding team color, and renders a stylized neon circuit map with a marked start/finish line. Built with Fast-F1, SciPy and Plotly.",
-   "language": "Python",
-   "stars": 0,
-   "forks": 0,
-   "pushed_at": "2025-12-04T11:16:38Z",
-   "fork": false
-  },
-  "griff-rag": {
-   "description": "GRIFF \u2014 AI assistant that explains German bureaucracy to foreigners. RAG system with hybrid retrieval, multilingual support (10 languages), and German email parser.",
-   "language": "Python",
-   "stars": 0,
-   "forks": 0,
-   "pushed_at": "2026-08-21T15:45:23Z",
-   "fork": false
+   "forks": 0
   },
   "journey-resilience-agent": {
    "description": "Live transfer-risk monitoring for German rail journeys \u2014 LangGraph agent + LightGBM quantile model on the DB Timetables API",
    "language": "HTML",
    "stars": 0,
-   "forks": 0,
-   "pushed_at": "2026-08-26T21:08:53Z",
-   "fork": false
+   "forks": 0
   },
-  "lidar-slam-mapping-system": {
-   "description": "LiDAR-based real-time mapping and localization pipeline using SLAM algorithms, Python and Gazebo simulation.",
+  "ai-vision-robotic-hand": {
+   "description": "Vision-controlled robotic hand",
    "language": "Python",
    "stars": 0,
-   "forks": 0,
-   "pushed_at": "2026-02-14T12:44:27Z",
-   "fork": false
-  },
-  "low-altitude-aerial-detection": {
-   "description": "Low-altitude (3\u20139m) aerial object detection using custom-annotated drone footage and YOLOv8.  Built as part of THI \u00d7 Fraunhofer IVI \u00d7 THD collaboration. Dataset creation, fine-tuning & evaluation pipeline.",
-   "language": "Python",
-   "stars": 0,
-   "forks": 0,
-   "pushed_at": "2026-06-28T18:06:27Z",
-   "fork": false
-  },
-  "portfolio-website": {
-   "description": "Personal AI Engineering portfolio website showcasing projects in computer vision, robotics, and mobile application development.",
-   "language": "JavaScript",
-   "stars": 0,
-   "forks": 0,
-   "pushed_at": "2026-09-02T11:57:29Z",
-   "fork": false
-  },
-  "ppe-helmet-detection": {
-   "description": "Real-time safety helmet detection using YOLOv8 and computer vision. Detects helmet/no-helmet violations on construction sites. TH Deggendorf ML/DL Case Study SS26",
-   "language": "Python",
-   "stars": 0,
-   "forks": 0,
-   "pushed_at": "2026-06-30T23:14:47Z",
-   "fork": false
-  },
-  "reqlens": {
-   "description": "AI agents that review automotive requirements: a LangGraph supervisor agent and a LlamaIndex RAG agent extract requirements from PDF specs and find conflicts and vague wording, with the engineer in the loop.",
-   "language": "Python",
-   "stars": 3,
-   "forks": 0,
-   "pushed_at": "2026-10-29T19:02:11Z",
-   "fork": false
-  },
-  "smart-fitness-recommender-system": {
-   "description": "Machine learning model that recommends workout styles based on user profile data  (Gender, Fitness Goal, BMI Category). Trained using RandomForestClassifier and  prepared for integration into a mobile fitness app (Flutter).",
-   "language": "Python",
-   "stars": 0,
-   "forks": 0,
-   "pushed_at": "2025-11-06T13:18:40Z",
-   "fork": false
-  },
-  "smart-water-meter-monitoring-system": {
-   "description": "Industrial internship project: Tkinter-based smart water meter monitoring and data processing system built with Python, JSON pipelines, and real-time data tracking.",
-   "language": "Python",
-   "stars": 0,
-   "forks": 0,
-   "pushed_at": "2026-05-29T12:07:56Z",
-   "fork": false
+   "forks": 0
   },
   "space-shooter-spi": {
-   "description": "Distributed 2-player Space Shooter game running on two Raspberry Pi 1 nodes communicating via SPI protocol. Pi A (Master) handles game engine, display and Player 1 input. Pi B (Slave) handles Player 2 input only. Built for THD Case Study Edge Device Architecture course",
+   "description": "Distributed 2-player Space Shooter game running on two Raspberry Pi 1 nodes communicating via SPI protocol.",
    "language": "Python",
    "stars": 0,
-   "forks": 0,
-   "pushed_at": "2026-06-01T09:47:59Z",
-   "fork": false
+   "forks": 0
+  },
+  "ppe-helmet-detection": {
+   "description": "Real-time safety helmet detection using YOLOv8 and computer vision.",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0
+  },
+  "reqlens": {
+   "description": "AI agents for reviewing automotive requirements.",
+   "language": "Python",
+   "stars": 3,
+   "forks": 0
   }
  }
 }

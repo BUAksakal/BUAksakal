@@ -2,8 +2,8 @@ name: Update README cards
 
 on:
   schedule:
-    - cron: "23 4 * * *"
-  workflow_dispatch:
+    - cron: "23 4 * * *" # every morning, 04:23 UTC
+  workflow_dispatch: # "Run workflow" button in the Actions tab
   push:
     branches: [main]
     paths:
@@ -23,18 +23,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Install dependencies
         run: pip install fonttools pillow
+
       - name: Fetch contribution calendar and repo stats
         run: python scripts/fetch_github_data.py
         env:
           GH_USER: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Render README cards
+
+      - name: Render README cards (hero, blue graph, activity, tiles, repos)
         run: python scripts/render_readme_cards.py
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"

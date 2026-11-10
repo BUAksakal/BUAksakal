@@ -63,20 +63,17 @@ CONFIG = {
          "body": "YOLOv8 vision, LangGraph agents and RAG. Studying at TH Deggendorf.",
          "href": f"{GH}/low-altitude-aerial-detection"},
     ],
-    # Featured repos, two per row. "blurb" overrides the GitHub description on the card.
+    # Featured repos, one row of three, in this order. "blurb" overrides the GitHub description.
     "repos": [
+        {"name": "reqlens", "area": "AI", "color": "yellow",
+         "blurb": "AI agents that review automotive requirement specs and flag conflicts and vague wording.",
+         "tags": ["LangGraph", "LlamaIndex", "RAG"]},
         {"name": "low-altitude-aerial-detection", "area": "AI", "color": "yellow",
-         "blurb": "Object detection on custom-annotated drone footage, 3 to 9 m up. THI, Fraunhofer IVI and THD.",
-         "tags": ["YOLOv8", "PyTorch", "Python"]},
+         "blurb": "YOLOv8 on custom-annotated drone footage, 3 to 9 m up. With Fraunhofer IVI.",
+         "tags": ["YOLOv8", "PyTorch"]},
         {"name": "journey-resilience-agent", "area": "SOFTWARE", "color": "red",
          "blurb": "Live transfer-risk monitoring for German rail journeys on the DB Timetables API.",
-         "tags": ["LangGraph", "LightGBM", "Agents"]},
-        {"name": "ai-vision-robotic-hand", "area": "HARDWARE", "color": "blue",
-         "blurb": "Bachelor's thesis: a robotic hand driven by computer vision. OpenCV and YOLOv8 see, Arduino C++ moves.",
-         "tags": ["OpenCV", "YOLOv8", "Arduino C++"]},
-        {"name": "space-shooter-spi", "area": "HARDWARE", "color": "blue",
-         "blurb": "A two-player space shooter split across two Raspberry Pi 1 boards talking over SPI.",
-         "tags": ["Raspberry Pi", "SPI", "Python"]},
+         "tags": ["LangGraph", "LightGBM"]},
     ],
     "section_title": ("What I'm ", "building"),
 }
@@ -521,34 +518,61 @@ def section_title(dark: bool) -> Card:
     return card
 
 
+def name_lines(name: str, size: float, width: float) -> list[str]:
+    """Split a long repo name after hyphens so it fits on at most two lines."""
+    if measure(name, "serif", size) <= width:
+        return [name]
+    parts = name.split("-")
+    best = None
+    for k in range(1, len(parts)):
+        a_, b_ = "-".join(parts[:k]) + "-", "-".join(parts[k:])
+        worst = max(measure(a_, "serif", size), measure(b_, "serif", size))
+        if best is None or worst < best[0]:
+            best = (worst, [a_, b_])
+    return best[1]
+
+
 def repo_card(cfg, i, repos) -> Card:
-    w, h = 600, 280
+    w, h = 400, 300  # same size as the tiles, three to a row
     info = repos.get("repos", {}).get(cfg["name"], {})
     blurb = cfg.get("blurb") or info.get("description", "")
     card = Card(f"repo-{cfg['name']}", w, h, f"{cfg['name']}: {blurb}")
-    t0 = T["repos"] + i * 0.12
+    t0 = T["repos"] + i * 0.1
     accent = C[cfg["color"]]
     inner = [panel(w, h)]
     lang = info.get("language") or ""
     label = f"{cfg['area']} · {lang.upper()}" if lang else cfg["area"]
-    inner.append(f'<circle cx="46" cy="58" r="6" fill="{accent}"/>')
-    inner.append(card.text(62, 63, label, "mono", 14, C["muted"], ls=1.8))
-    inner.append(arrow(556, 58, C["ink"], t0 + 1.0, 0.95))
-    size = 40
-    while measure(cfg["name"], "serif", size) > 520:
+    inner.append(f'<circle cx="42" cy="53" r="5.5" fill="{accent}"/>')
+    inner.append(card.text(56, 58, label, "mono", 13, C["muted"], ls=1.6))
+    inner.append(arrow(354, 53, C["ink"], t0 + 1.0, 0.9))
+    size, maxw = 36, 326
+    lines = name_lines(cfg["name"], size, maxw)
+    while max(measure(l, "serif", size) for l in lines) > maxw:
         size -= 1
-    inner.append(card.text(38, 120, cfg["name"], "serif", size, C["ink"]))
-    for j, line in enumerate(wrap(blurb, "sans", 18, 520)[:3]):
-        inner.append(card.text(40, 158 + j * 25, line, "sans", 18, C["muted"]))
+        lines = name_lines(cfg["name"], size, maxw)
+    y = 106
+    for l in lines:
+        inner.append(card.text(36, y, l, "serif", size, C["ink"]))
+        y += size * 0.98
+    body = wrap(blurb, "sans", 16.5, maxw)
+    room = 3 if len(lines) == 1 else 2
+    if len(body) > room:
+        body = body[:room]
+        body[-1] = body[-1].rstrip(".,;:") + "…"
+    by = y + 14
+    for j, line in enumerate(body):
+        inner.append(card.text(38, by + j * 23, line, "sans", 16.5, C["muted"]))
     tags = list(cfg.get("tags", []))
     if info.get("stars"):
         tags.append(plural(info["stars"], "star"))
-    tx = 40
+    tx = 38
     for tg in tags:
-        tw = measure(tg, "mono", 13) + 24
-        inner.append(f'<rect x="{tx}" y="226" width="{tw:.1f}" height="28" rx="14" fill="none" stroke="{C["line"]}" stroke-width="1.2"/>'
-                     + card.text(tx + 12, 245, tg, "mono", 13, C["ink"]))
-        tx += tw + 8
+        tw = measure(tg, "mono", 12) + 22
+        if tx + tw > w - 36:
+            break
+        inner.append(f'<rect x="{tx}" y="244" width="{tw:.1f}" height="26" rx="13" fill="none" stroke="{C["line"]}" stroke-width="1.2"/>'
+                     + card.text(tx + 11, 261.5, tg, "mono", 12, C["ink"]))
+        tx += tw + 7
     card.add(f'<g style="{a("up", 0.75, t0)}">' + "".join(inner) + "</g>")
     return card
 
