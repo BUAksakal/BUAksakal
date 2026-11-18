@@ -1,8 +1,8 @@
 {
  "user": "BUAksakal",
  "source": "scrape",
- "fetched_at": "2026-11-17T13:32:47Z",
- "total": 504,
+ "fetched_at": "2026-11-18T13:08:57Z",
+ "total": 507,
  "days": [
   {
    "date": "2025-11-16",
@@ -1836,6 +1836,11 @@
   },
   {
    "date": "2026-11-17",
+   "count": 3,
+   "level": 1
+  },
+  {
+   "date": "2026-11-18",
    "count": 0,
    "level": 0
   }
