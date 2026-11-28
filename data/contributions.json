@@ -1,8 +1,8 @@
 {
  "user": "BUAksakal",
  "source": "scrape",
- "fetched_at": "2026-11-27T13:56:45Z",
- "total": 511,
+ "fetched_at": "2026-11-28T13:08:49Z",
+ "total": 497,
  "days": [
   {
    "date": "2025-11-23",
@@ -1781,17 +1781,17 @@
   },
   {
    "date": "2026-11-13",
-   "count": 6,
-   "level": 1
+   "count": 0,
+   "level": 0
   },
   {
    "date": "2026-11-14",
-   "count": 3,
-   "level": 1
+   "count": 0,
+   "level": 0
   },
   {
    "date": "2026-11-15",
-   "count": 6,
+   "count": 3,
    "level": 1
   },
   {
@@ -1801,8 +1801,8 @@
   },
   {
    "date": "2026-11-17",
-   "count": 3,
-   "level": 1
+   "count": 0,
+   "level": 0
   },
   {
    "date": "2026-11-18",
@@ -1851,6 +1851,11 @@
   },
   {
    "date": "2026-11-27",
+   "count": 1,
+   "level": 1
+  },
+  {
+   "date": "2026-11-28",
    "count": 0,
    "level": 0
   }
